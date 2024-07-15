@@ -7,9 +7,7 @@ USE DBMS_LAB_1
 --ALTER
 
 
-
 --PART-A
-
 
 --1 Add two more columns City VARCHAR (20) and Pincode INT
 ALTER TABLE DEPOSIT
@@ -116,7 +114,7 @@ INSERT INTO EMPLOYEE_MASTER(EMPNO,EMPNAME,JOININGDATE,SALARY,CITY) VALUES
 --1 Delete all the records of Employee_MASTER table having salary greater than and equals to 14000. 
 DELETE FROM EMPLOYEE_MASTER
 WHERE SALARY>=14000;
---2 Delete all the Employees who belongs to ¡®RAJKOT¡¯ city
+--2 Delete all the Employees who belongs to ï¿½ï¿½RAJKOTï¿½ï¿½ city
 DELETE FROM EMPLOYEE_MASTER
 WHERE CITY='RAJKOT';
 --3 Delete all the Employees who joined after 1-1-2007
