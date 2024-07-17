@@ -19,7 +19,7 @@ INSERT INTO EMP VALUES
 
 SELECT * FROM EMP
 
---Part – A:
+--Part â€“ A:
 
 
 --1. Display the Highest, Lowest, Label the columns Maximum, Minimum respectively.
@@ -73,7 +73,7 @@ SELECT AVG(Salary)  FROM EMP GROUP BY Department
 
 
 
---Part – B:
+--Part â€“ B:
 
 --1. Count the number of employees living in Rajkot.
 SELECT COUNT(*) FROM EMP  WHERE CITY = 'Rajkot'
@@ -81,11 +81,18 @@ SELECT COUNT(*) FROM EMP  WHERE CITY = 'Rajkot'
 --2. Display the difference between the highest and lowest salaries. Label the column DIFFERENCE.
 SELECT MAX(Salary)-MIN(Salary) AS DIFFERENCE  FROM EMP
 
---3. Display the total number of employees hired before 1st January, 1991.SELECT COUNT(*)  FROM EMP WHERE JoiningDate < '1991-01-01'--Part – C:
+--3. Display the total number of employees hired before 1st January, 1991.
+SELECT COUNT(*)  FROM EMP WHERE JoiningDate < '1991-01-01'
+
+
+
+
+--Part â€“ C:
 --1. Count the number of employees living in Rajkot or Baroda.
 SELECT COUNT(*) FROM EMP WHERE City IN ('Rajkot','Baroda')
 
 --2. Display the total number of employees hired before 1st January, 1991 in IT department.
 SELECT COUNT(*)  FROM EMP WHERE JoiningDate < '1991-01-01'
 --3. Find the Joining Date wise Total Salaries.
---4. Find the Maximum salary department & city wise in which city name starts with ‘R’.
+--4. Find the Maximum salary department & city wise in which city name starts with â€˜Râ€™.
+
