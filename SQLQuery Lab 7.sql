@@ -93,6 +93,9 @@ SELECT COUNT(*) FROM EMP WHERE City IN ('Rajkot','Baroda')
 
 --2. Display the total number of employees hired before 1st January, 1991 in IT department.
 SELECT COUNT(*)  FROM EMP WHERE JoiningDate < '1991-01-01'
+
 --3. Find the Joining Date wise Total Salaries.
+SELECT JoiningDate , COUNT(Salary) FROM EMP GROUP BY JoiningDate
+
 --4. Find the Maximum salary department & city wise in which city name starts with ‘R’.
 
