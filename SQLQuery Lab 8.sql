@@ -21,7 +21,7 @@ INSERT INTO SALES_DATA VALUES
 
 SELECT * FROM SALES_DATA
 
---Part – A:
+--Part â€“ A:
 
 --1. Display Total Sales Amount by Region.
 SELECT Region, SUM(Sales_Amount)
@@ -83,11 +83,15 @@ FROM SALES_DATA
 GROUP BY Year
 HAVING  MIN(Sales_Amount)>500
 
---12. Display Total Sales Amount by Region for Year 2023, Sorted by Total Amount SELECT  Region ,SUM(Sales_Amount)
+--12. Display Total Sales Amount by Region for Year 2023, Sorted by Total Amount
+ SELECT  Region ,SUM(Sales_Amount)
  FROM SALES_DATA
  WHERE  YEAR = 2023
  GROUP BY  Region
- ORDER BY SUM(Sales_Amount)--Part – B:
+ ORDER BY SUM(Sales_Amount)
+
+
+--Part â€“ B:
 
 --1. Display Count of Orders by Year and Region, Sorted by Year and Region
  SELECT  Year ,Region ,COUNT(Product)
@@ -116,7 +120,7 @@ SELECT TOP 3 Region ,SUM(Sales_Amount)
  GROUP BY  Region
  
  
--- Part – C:
+-- Part â€“ C:
 
 
 --1. Display Products with Average Sales Amount Between 1000 and 2000, Ordered by Product Name
