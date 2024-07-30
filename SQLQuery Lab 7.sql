@@ -1,6 +1,4 @@
 
-
-
 CREATE TABLE EMP(
 	EID INT,
 	EName VARCHAR(25),
