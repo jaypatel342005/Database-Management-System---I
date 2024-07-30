@@ -153,3 +153,6 @@ FROM SALES_DATA
  SELECT  Region ,MAX(Sales_Amount)
  FROM SALES_DATA
  GROUP BY  Region
+
+
+ 
