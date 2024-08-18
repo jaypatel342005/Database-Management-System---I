@@ -28,7 +28,7 @@ SELECT Region, SUM(Sales_Amount)
 FROM SALES_DATA 
 GROUP BY Region
 
---2. Display Average Sales Amount by ProducT
+--2. Display Average Sales Amount by Product
 SELECT Product , AVG(Sales_Amount)
 FROM SALES_DATA 
 GROUP BY Product
