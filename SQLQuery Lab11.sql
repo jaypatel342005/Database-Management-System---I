@@ -26,7 +26,7 @@ INSERT INTO RESULT VALUES
 (107,8.9)
 
 
---Part – A:
+--Part ï¿½ A:
 
 
 --1. Combine information from student and result table using cross join or Cartesian product.
@@ -58,13 +58,13 @@ SELECT STU_INFO.RNo ,  STU_INFO.Branch , STU_INFO.Name ,RESULT.SPI  FROM STU_INF
 LEFT JOIN RESULT 
 ON STU_INFO.RNo = RESULT.RNo
 
---7. Display Rno, Name, Branch and SPI of CE branch’s student only.
+--7. Display Rno, Name, Branch and SPI of CE branchï¿½s student only.
 SELECT STU_INFO.RNo,STU_INFO.Branch,STU_INFO.Name ,RESULT.SPI  FROM STU_INFO
 LEFT JOIN RESULT 
 ON STU_INFO.RNo = RESULT.RNo
 WHERE STU_INFO.Branch = 'CE'
 
---8. Display Rno, Name, Branch and SPI of other than EC branch’s student only.
+--8. Display Rno, Name, Branch and SPI of other than EC branchï¿½s student only.
 SELECT STU_INFO.RNo,STU_INFO.Branch,STU_INFO.Name ,RESULT.SPI  FROM STU_INFO
 LEFT JOIN RESULT 
 ON STU_INFO.RNo = RESULT.RNo
@@ -85,7 +85,7 @@ HAVING STU_INFO.Branch = 'CE' OR STU_INFO.Branch ='ME'
 
 
 
---Part – B:
+--Part ï¿½ B:
 --1. Display average result of each branch and sort them in ascending order by SPI.
 SELECT AVG(RESULT.SPI) , STU_INFO.Branch
 FROM STU_INFO FULL JOIN RESULT
@@ -102,6 +102,5 @@ ORDER BY MAX(RESULT.SPI) DESC
 
 
 
---Part – C:
---1. Retrieve the names of employee along with their manager’s name from the Employee table
- 
+--Part ï¿½ C:
+--1. Retrieve the names of employee along with their managerï¿½s name from the Employee table
