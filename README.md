@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/jaypatel342005/DBMS-I?style=flat-square" alt="License" />
-  <img src="https://img.shields.io/github/stars/jaypatel342005/DBMS-I?style=social" alt="Stars" />
-  <img src="https://img.shields.io/github/forks/jaypatel342005/DBMS-I?style=social" alt="Forks" />
+  <img src="https://img.shields.io/github/license/jaypatel342005/Database-Management-System---I?style=flat-square" alt="License" />
+  <img src="https://img.shields.io/github/stars/jaypatel342005/Database-Management-System---I?style=social" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/jaypatel342005/Database-Management-System---I?style=social" alt="Forks" />
 </p>
 
 ---
@@ -98,7 +98,7 @@ Before you begin, ensure you have:
 
 1. **🔄 Clone the Repository**:
    ```bash
-   git clone https://github.com/jaypatel342005/DBMS-I.git
+   git clone https://github.com/jaypatel342005/Database-Management-System---I.git
    ```
 
 2. **📂 Navigate to the Project Directory**:
